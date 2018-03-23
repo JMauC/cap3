@@ -1,0 +1,14 @@
+3.5
+    A palavra-chave "new" informa ao sistema para reservar um espaço na memória para alocar um novo 
+objeto e, caso exista, chama o construtor da classe à qual esse objeto pertence.
+
+3.6
+    O construtor padrão é a forma do compilador de inicializar um objeto cuja classe não especifica 
+um método construtor. As variáveis de instância desse objeto serão inicializadas de acordo com 
+os valores padrão da classe.
+
+3.7
+    As variáveis de instância são responsáveis por armazenar informações únicas àquele objeto, ou 
+seja, é o que o diferenciará das outras instâncias daquela mesma classe.
+
+3.8
