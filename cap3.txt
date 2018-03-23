@@ -12,3 +12,14 @@ os valores padrão da classe.
 seja, é o que o diferenciará das outras instâncias daquela mesma classe.
 
 3.8
+    Como as classes String e System fazem parte do pacote java.lang, que por padrão é implicitamente
+importado para todo programa Java.
+
+3.9
+    Basta utilizar o "nome de classe completamente qualificado" da classe Scanner. Esse nome consiste 
+no nome do pacote onde a classe se encontra seguido da classe que utilizaremos: java.util.Scanner.
+
+3.10
+    Como as variáveis de instância costumam guardar informações relacionados aos seus objetos de origem,
+muitas vezes precisamos alterar ou acessar tais variáveis por meio de métodos ou classes. Utilizando 
+os setters e getters podemos fazer isso de forma mais simples e segura.
