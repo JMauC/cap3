@@ -1,6 +1,6 @@
 3.5
-    A palavra-chave "new" informa ao sistema para reservar um espaço na memória para alocar um novo 
-objeto e, caso exista, chama o construtor da classe à qual esse objeto pertence.
+    A palavra-chave "new" informa ao sistema para alocar um novo objeto da classe especificada
+na variável indicada e, caso exista, chama o construtor da classe à qual esse objeto pertence.
 
 3.6
     O construtor padrão é a forma do compilador de inicializar um objeto cuja classe não especifica 
