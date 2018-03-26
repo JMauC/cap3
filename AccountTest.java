@@ -39,7 +39,35 @@ public class AccountTest{
         //Exibe os saldos
         System.out.printf("Account1 balance: U$%.2f \n"
             , account1.getBalance());
-        System.out.printf("Account2 balance: U$%.2f \n"
+        System.out.printf("Account2 balance: U$%.2f \n\n"
+            , account2.getBalance());
+
+        double debitAmount;//Variável para o valor de saque
+
+        //Retirando dinheiro de account1
+        System.out.printf("Enter cash out amount for account1: ");//Prompt
+        debitAmount = input.nextDouble();//Entrada do usuário
+        System.out.printf("\nCashing out %.2f from account1 balance\n\n"
+            , debitAmount);
+        account1.debit(debitAmount);//Retira o valor do saldo de account1
+
+        //Exibe os saldos
+        System.out.printf("Account1 balance: U$%.2f \n"
+            , account1.getBalance());
+        System.out.printf("Account2 balance: U$%.2f \n\n"
+            , account2.getBalance());
+
+        //Retirando dinheiro de account2
+        System.out.printf("Enter cash out amount for account2: ");//Prompt #2
+        debitAmount = input.nextDouble();//Entrada do usuário
+        System.out.printf("\nCashing out %.2f from account2 balance\n\n" 
+            , debitAmount);
+        account2.debit(debitAmount);//Retira o valor do saldo de account2
+
+        //Exibe os saldos
+        System.out.printf("Account1 balance: U$%.2f \n"
+            , account1.getBalance());
+        System.out.printf("Account2 balance: U$%.2f \n\n"
             , account2.getBalance());
 
         input.close();

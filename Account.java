@@ -17,4 +17,12 @@ public class Account{
         balance = balance + amount; //Adiciona o valor ao saldo
     }//Fim do credit
 
+    public void debit(double amount){//Retira um valor da conta
+        if(amount <= balance){//Checa se o valor a ser retirado é menor ou igual ao saldo 
+            balance = balance - amount;//Se sim, atualiza o saldo retirando o valor indicado
+        }else if(amount > balance){//Se for maior que o saldo, avisa que o valor não pôde ser retirado
+            System.out.println("Debit amount exceeded account balance\n");
+        }//Fim do if/else
+    }//Fim do debit
+
 }//Fim da classe Account
