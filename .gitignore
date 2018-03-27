@@ -7,3 +7,5 @@ Invoice.class
 InvoiceTest.class
 EmployeeTest.class
 Employee.class
+Date.class
+DateTest.class
