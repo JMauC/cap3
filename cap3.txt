@@ -12,12 +12,13 @@ os valores padrão da classe.
 seja, é o que o diferenciará das outras instâncias daquela mesma classe.
 
 3.8
-    Como as classes String e System fazem parte do pacote java.lang, que por padrão é implicitamente
+    Porque as classes String e System fazem parte do pacote java.lang, que por padrão é implicitamente
 importado para todo programa Java.
 
 3.9
     Basta utilizar o "nome de classe completamente qualificado" da classe Scanner. Esse nome consiste 
-no nome do pacote onde a classe se encontra seguido da classe que utilizaremos: java.util.Scanner.
+no nome do pacote onde a classe se encontra seguido da classe que utilizaremos desse pacote. Exemplo: 
+"java.util.Scanner", onde "java.util" é o pacote e "Scanner" é a classe
 
 3.10
     Como as variáveis de instância costumam guardar informações relacionados aos seus objetos de origem,
